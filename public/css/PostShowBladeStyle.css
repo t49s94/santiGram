@@ -1,0 +1,52 @@
+/*
+
+Developer: Sergio Eduardo Santillana Lopez.
+Last update: 15/04/2021.
+
+This flle contains styles for posts/show.blade.php
+
+*/
+
+#likeButton img:hover {
+  cursor: pointer;
+}
+
+#replyButton:hover {
+  cursor: pointer;
+}
+
+#seeRepliesButton:hover {
+  cursor: pointer;
+}
+
+#cancelReply:hover {
+  cursor: pointer;
+}
+
+#loadComments:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#loadReplies:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#displayComments div {
+  animation: slide-up 1.0s ease;
+}
+
+/*
+Provides a "slide-up" animation
+*/
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

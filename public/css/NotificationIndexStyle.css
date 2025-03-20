@@ -1,0 +1,22 @@
+/*
+
+Developer: Sergio Eduardo Santillana Lopez.
+Last update: 15/04/2021.
+
+This flle contains styles for notifications/index.blade.php
+
+*/
+
+/*
+----------------------------------------------------------------------------------------------------------------------------
+For Anchor that redirects to Post that Notification is related to.
+*/
+
+.a_toPost {
+  color: white;
+  text-decoration: none;
+}
+
+.a_toPost:hover {
+  color: white;
+}

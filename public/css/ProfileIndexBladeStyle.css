@@ -1,0 +1,52 @@
+/*
+#sendMessage:hover {
+  animation: grow 1.0s ease;
+}
+*/
+
+@keyframes pulse_animation {
+    0% { transform: scale(1); }
+    10% { transform: scale(1.2); }
+    20% { transform: scale(1); }
+    30% { transform: scale(1.2); }
+    40% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    60% { transform: scale(1); }
+    70% { transform: scale(1.2); }
+    80% { transform: scale(1); }
+    90% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+#sendMessage:hover {
+    animation-name: pulse_animation;
+    animation-duration: 4000ms;
+    transform-origin:70% 70%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+/*
+
+@keyframes pulse_animation {
+    0% { transform: scale(1); }
+    30% { transform: scale(1); }
+    40% { transform: scale(1.2); }
+    50% { transform: scale(1); }
+    60% { transform: scale(1); }
+    70% { transform: scale(1.15); }
+    80% { transform: scale(1); }
+    100% { transform: scale(1); }
+}
+
+.pulse {
+    animation-name: pulse_animation;
+    animation-duration: 5000ms;
+    transform-origin:70% 70%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+*/
